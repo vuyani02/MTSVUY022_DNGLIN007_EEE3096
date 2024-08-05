@@ -1,0 +1,9 @@
+22:40:08 **** Incremental Build of configuration Debug for project Prac3 ****
+make -j4 all 
+arm-none-eabi-gcc "C:/Users/vuyani/Documents/EEE3095S/MTSVUY022_DNGLIN007_EEE3096S/Prac1/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../../Core/Inc -I../../Drivers/STM32F0xx_HAL_Driver/Inc -I../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/stm32f0xx_hal.d" -MT"Drivers/STM32F0xx_HAL_Driver/stm32f0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/stm32f0xx_hal.o"
+make: *** No rule to make target 'C:/Users/vuyani/Documents/EEE3095S/MTSVUY022_DNGLIN007_EEE3096S/Prac1/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c', needed by 'Drivers/STM32F0xx_HAL_Driver/stm32f0xx_hal_adc.o'.  Stop.
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+22:40:09 Build Failed. 2 errors, 0 warnings. (took 1s.98ms)
+
