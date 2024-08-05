@@ -1,4 +1,4 @@
-23:04:22 **** Incremental Build of configuration Default for project Prac1 ****
+23:14:44 **** Incremental Build of configuration Default for project Prac1 ****
 make all 
 arm-none-eabi-gcc -c -mcpu=cortex-m0 -mthumb   -DSTM32F051x8 -DUSE_FULL_LL_DRIVER -DHSE_VALUE=8000000 -DHSE_STARTUP_TIMEOUT=100 -DLSE_STARTUP_TIMEOUT=5000 -DLSE_VALUE=32768 -DHSI_VALUE=8000000 -DLSI_VALUE=40000 -DVDD_VALUE=3300 -DPREFETCH_ENABLE=1 -DINSTRUCTION_CACHE_ENABLE=0 -DDATA_CACHE_ENABLE=0 -ICore/Inc -IDrivers/STM32F0xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/main.d" -Wa,-a,-ad,-alms=build/main.lst Core/Src/main.c -o build/main.o
 In file included from Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
@@ -24,5 +24,5 @@ arm-none-eabi-size build/Prac1.elf
 arm-none-eabi-objcopy -O ihex build/Prac1.elf build/Prac1.hex
 arm-none-eabi-objcopy -O binary -S build/Prac1.elf build/Prac1.bin	
 
-23:04:23 Build Finished. 0 errors, 6 warnings. (took 1s.598ms)
+23:14:46 Build Finished. 0 errors, 6 warnings. (took 1s.348ms)
 
