@@ -3027,3 +3027,231 @@ org.eclipse.core.runtime.CoreException: Build configuration is not valid. Descri
 	at java.base/java.lang.Thread.run(Thread.java:840)
 !SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:14:53.527
 !MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-05 23:19:24.769
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-05 23:19:24.772
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:19:25.003
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:19:25.004
+!MESSAGE Not able to get mcu target.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build configuration is not valid. Described mcu target is not supported.
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:170)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getMcu(TargetHelper.java:177)
+	at com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin.getMcuFromConfig(MCUDebugPlugin.java:408)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:156)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:19:25.004
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-05 23:19:26.674
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-05 23:19:26.674
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-05 23:19:26.674
+!MESSAGE C:\Users\vuyani\Documents\EEE3095S\MTSVUY022_DNGLIN007_EEE3096S\Prac1 overlaps the location of another project: 'Prac1'
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:19:32.121
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:19:32.122
+!MESSAGE Not able to get board target.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build configuration is not valid. Described mcu target is not supported.
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:170)
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getBoard(TargetHelper.java:124)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getBoard(TargetHelper.java:70)
+	at com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin.getTargetFromConfig(MCUDebugPlugin.java:444)
+	at com.st.stm32cube.ide.mcu.debug.stlink.DeviceScript.find(DeviceScript.java:118)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.doSetInitCommands(StLinkDebugHardware.java:1911)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepPreInitCommands(LaunchSequenceUtil.java:975)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepPreInitCommands(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-05 23:19:32.122
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+!SESSION 2024-08-06 20:30:57.269 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-08-06 20:31:01.965
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-06 20:31:10.428
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-06 20:31:10.433
+!MESSAGE Log4j2 initialized with config file C:\Users\vuyani\Documents\EEE3095S\MTSVUY022_DNGLIN007_EEE3096S\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 20:31:13.985
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 20:31:13.998
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-06 20:31:21.230
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 20:56:49.477
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 20:56:49.483
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 20:56:49.872
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 20:56:49.873
+!MESSAGE Not able to get mcu target.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build configuration is not valid. Described mcu target is not supported.
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:170)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getMcu(TargetHelper.java:177)
+	at com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin.getMcuFromConfig(MCUDebugPlugin.java:408)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:156)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-06 20:56:49.874
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-06 20:56:50.042
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-06 20:56:50.042
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-06 20:56:50.042
+!MESSAGE C:\Users\vuyani\Documents\EEE3095S\MTSVUY022_DNGLIN007_EEE3096S\Prac1 overlaps the location of another project: 'Prac1'
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 20:56:57.683
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 20:56:57.684
+!MESSAGE Not able to get board target.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build configuration is not valid. Described mcu target is not supported.
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:170)
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getBoard(TargetHelper.java:124)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getBoard(TargetHelper.java:70)
+	at com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin.getTargetFromConfig(MCUDebugPlugin.java:444)
+	at com.st.stm32cube.ide.mcu.debug.stlink.DeviceScript.find(DeviceScript.java:118)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.doSetInitCommands(StLinkDebugHardware.java:1911)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepPreInitCommands(LaunchSequenceUtil.java:975)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepPreInitCommands(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-06 20:56:57.686
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 21:31:54.720
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 21:31:54.728
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 21:32:03.107
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none 4 4 2024-08-06 21:32:03.110
+!MESSAGE Failed to get MCU from name "" in toolchain com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.1341720215
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 21:32:03.499
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 21:32:03.501
+!MESSAGE Not able to get mcu target.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build configuration is not valid. Described mcu target is not supported.
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:170)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getMcu(TargetHelper.java:177)
+	at com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin.getMcuFromConfig(MCUDebugPlugin.java:408)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence.run(DSFServicesLaunchSequence.java:156)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-06 21:32:03.501
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-06 21:32:05.148
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-06 21:32:05.148
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-06 21:32:05.148
+!MESSAGE C:\Users\vuyani\Documents\EEE3095S\MTSVUY022_DNGLIN007_EEE3096S\Prac1 overlaps the location of another project: 'Prac1'
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 21:32:10.835
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2024-08-06 21:32:10.836
+!MESSAGE Not able to get board target.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Build configuration is not valid. Described mcu target is not supported.
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:170)
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getBoard(TargetHelper.java:124)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getBoard(TargetHelper.java:70)
+	at com.st.stm32cube.ide.mcu.debug.MCUDebugPlugin.getTargetFromConfig(MCUDebugPlugin.java:444)
+	at com.st.stm32cube.ide.mcu.debug.stlink.DeviceScript.find(DeviceScript.java:118)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.doSetInitCommands(StLinkDebugHardware.java:1911)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepPreInitCommands(LaunchSequenceUtil.java:975)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepPreInitCommands(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SUBENTRY 1 com.st.stm32cube.ide.common.services 4 0 2024-08-06 21:32:10.837
+!MESSAGE Build configuration is not valid. Described mcu target is not supported.

@@ -112,17 +112,17 @@ int main(void)
     // Check buttons and change the current pattern
     if (LL_GPIO_IsInputPinSet(Button0_GPIO_Port, Button0_Pin) == 0)
     {
-      __HAL_TIM_SET_PRESCALER(&htim16, 62 - 1);
+      __HAL_TIM_SET_PRESCALER(&htim16, 62);
       __HAL_TIM_SET_AUTORELOAD(&htim16, 64516);
     }
     else if (LL_GPIO_IsInputPinSet(Button1_GPIO_Port, Button1_Pin) == 0)
     {
-      __HAL_TIM_SET_PRESCALER(&htim16, 244 - 1);
+      __HAL_TIM_SET_PRESCALER(&htim16, 244);
       __HAL_TIM_SET_AUTORELOAD(&htim16, 65306);
     }
     else if (LL_GPIO_IsInputPinSet(Button2_GPIO_Port, Button2_Pin) == 0)
     {
-      __HAL_TIM_SET_PRESCALER(&htim16, 123 - 1);
+      __HAL_TIM_SET_PRESCALER(&htim16, 123);
       __HAL_TIM_SET_AUTORELOAD(&htim16, 64040);
     }
     else if (LL_GPIO_IsInputPinSet(Button3_GPIO_Port, Button3_Pin) == 0)
